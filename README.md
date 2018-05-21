@@ -15,7 +15,7 @@ LAMP Docker est un projet basé sur Linux + Apache + MySQL + PhpMyAdmin. Le but 
 ### En ligne de commande
 Une fois les préréquis installés, il vous suffit d'exécuter la commande suivante : 
 `$ docker-compose up`
-Si vous n'avez pas les images nécessaires, celles-ci vont être téléchargé sur votre machine.
+. Si vous n'avez pas les images nécessaires, celles-ci vont être téléchargé sur votre machine.
 
 Afin de vérifier que tout fonctionne bien, il est possible de vérifier que les 3 images sont bien installées :
 `$ docker images`
@@ -37,7 +37,7 @@ PHP est configurable, via le fichier présent dans le dossier config "custom.php
 MySQL est paramétrable via les variables d'environnement du docker-compose.yml (voir https://hub.docker.com/_/mysql/).
 
 ## Sécurité
-:warning: L'aspect sécurité n'a pas été traité à travers ce projet
+:warning: L'aspect sécurité n'a pas été traité à travers ce projet.
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
