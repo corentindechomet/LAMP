@@ -1,21 +1,21 @@
 # LAMP Docker 
 
-LAMP Docker est un projet basé sur Linux + Apache + MySQL + PhpMyAdmin. Le but de se projet est d'encapsuler facilement tout application web. Il est composé de 3 images Docker:
+LAMP Docker est un projet basé sur Linux + Apache + MySQL + PhpMyAdmin. Le but de se projet est d'encapsuler facilement toute application web. Il est composé de 3 images Docker:
 * PHP 5.6 (lavoweb/php-5.6)
 * MySQL 5.5
 * PhpMyAdmin (phpmyadmin/phpmyadmin)
 
 ## Installation
 
-### Préréquis
+### Prérequis
 * Docker - https://docs.docker.com/install/
 * Docker Compose - https://docs.docker.com/compose/install/
 
 ## Usage
 ### En ligne de commande
-Une fois les préréquis installés, il vous suffit d'exécuter la commande suivante : 
+Une fois les prérequis installés, il vous suffit d'exécuter la commande suivante : 
 `$ docker-compose up`
-. Si vous n'avez pas les images nécessaires, celles-ci vont être téléchargé sur votre machine.
+. Si vous n'avez pas les images nécessaires, celles-ci vont être téléchargées sur votre machine.
 
 Afin de vérifier que tout fonctionne bien, il est possible de vérifier que les 3 images sont bien installées :
 `$ docker images`.
