@@ -18,10 +18,10 @@ Une fois les préréquis installés, il vous suffit d'exécuter la commande suiv
 . Si vous n'avez pas les images nécessaires, celles-ci vont être téléchargé sur votre machine.
 
 Afin de vérifier que tout fonctionne bien, il est possible de vérifier que les 3 images sont bien installées :
-`$ docker images`
+`$ docker images`.
 
 Mais aussi que les 3 containers Docker contenant chacun une image sont bien lancés : 
-`$ docker ps`
+`$ docker ps`.
 
 ### Créer une base de données
 Rendez-vous sur http://localhost:8080/ pour accéder à phpMyAdmin et ainsi gérer vos bases de données.
