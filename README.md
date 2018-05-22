@@ -13,7 +13,7 @@ LAMP Docker est un projet basé sur Linux + Apache + MySQL + PhpMyAdmin. Le but 
 
 ## Usage
 ### En ligne de commande
-Une fois les prérequis installés, il vous suffit d'exécuter la commande suivante : 
+Une fois les prérequis installés, il vous suffit de cloner le projet, et d'exécuter la commande suivante : 
 `$ docker-compose up`
 . Si vous n'avez pas les images nécessaires, celles-ci vont être téléchargées sur votre machine.
 
@@ -22,6 +22,8 @@ Afin de vérifier que tout fonctionne bien, il est possible de vérifier que les
 
 Mais aussi que les 3 containers Docker contenant chacun une image sont bien lancés : 
 `$ docker ps`.
+
+Vous devrez maintenant pouvoir accéder à la page d'accueil du projet, sur http://localhost/. 
 
 ### Créer une base de données
 Rendez-vous sur http://localhost:8080/ pour accéder à phpMyAdmin et ainsi gérer vos bases de données.
